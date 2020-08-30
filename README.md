@@ -2,8 +2,7 @@
 
 This project shows two bugs in NavigationLink.
 
-## Bug: In a master-detail view, updating the NavigationLink $selection binding doesn't update the selected row in the master list.
-## (Resolved by Big Sur beta 5.)
+## Bug: In a master-detail view, updating the NavigationLink $selection binding doesn't update the selected row in the master list. (Resolved by Big Sur beta 5.)
 ### Steps to Reproduce:
 1. Run the app.
 2. Select Thing 0 from the left-side list, and observe that the detail view with label "Selected 0" is selected.
